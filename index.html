@@ -15,74 +15,82 @@
     @keyframes hover {    
         0%{
             transform: scale(1);
-            i:has(+ button){
-                transform: scale(1)
-            }
+
         }    
         100% {      
             transform: scale(1.5);
             }    
-            i:has(+ button){
-                transform: scale(1.5)
-            }
+
         }
     }
     
   </style>
 </head>
 <body class="bg-gray-200 h-screen dark:bg-gray-800 dark:text-white">
-    <div class="flex justify-evenly items-center h-full items-center w-7/10 m-auto">
+    <div class="flex justify-evenly items-center items-center w-7/10 m-auto ">
+        
 
-        <div class="grid grid-cols-3 w-full gap-[10vw]">
-            <div class="md:col-span-1 col-span-3 flex justify-center items-center flex-col p-[5vw] border-3 border-double rounded-lg">
+        <div class="grid grid-cols-3 w-full gap-[10vw] ">
+            <div class="md:col-span-1 col-span-3 flex justify-center items-center flex-col p-5 border-3 border-double rounded-lg">
                 <img src="https://lozshop.b-cdn.net/wp-content/uploads/2018/07/LOZ-1619-Tow-Mater-Car-1024x663.jpg" alt="tomater" class="rounded-full w-full border-3 border-solid">
-                <div class="flex justify-center items-center flex-col">
-                    <h1 class="text-center font-bold text-2xl">Tow Mater</h1>
-                    <h1 class="text-center  font-bold text-lg">Tow truck</h1>
-                    <p class="text-center"><span class="font-bold">BIO: </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum hic quibusdam odio maiores porro eos? Voluptas beatae molestiae laudantium, quo numquam architecto corrupti deleniti quae laborum in! Eaque, velit eveniet.</p>
-                    <div class="flex justify-evenly items-center w-full mt-5">
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyLN()"><i class="fab fa-linkedin fa-3x "></i></button>
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyFB()"><i class="fab fa-facebook-square fa-3x"></i></button>
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyIG()"><i class="fab fa-instagram-square fa-3x"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div class="md:col-span-1 col-span-3 flex justify-center items-center flex-col">
-                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/04/lightning_mcqueen_on_his_truck_in_cars.jpg" alt="" class="rounded-full h-5/10 border-3 border-solid">
-                <div class="flex justify-center items-center flex-col">
-                    <h1 class="text-center font-bold text-2xl">Lightning Mcqueen</h1>
-                    <h1 class="text-center  font-bold text-lg">Race Car</h1>
-                    <p class="text-center"><span class="font-bold">BIO: </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum hic quibusdam odio maiores porro eos? Voluptas beatae molestiae laudantium, quo numquam architecto corrupti deleniti quae laborum in! Eaque, velit eveniet.</p>
-                    <div class="flex justify-evenly items-center w-full mt-5">
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyLN()"><i class="fab fa-linkedin fa-3x "></i></button>
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyFB()"><i class="fab fa-facebook-square fa-3x"></i></button>
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyIG()"><i class="fab fa-instagram-square fa-3x"></i></button>
-                    </div>
+                <div class="flex justify-center items-center flex-col w-9/10">
+                    <div class="w-9/10 flex justify-center items-center flex-col">
+                        <h1 class="text-center font-bold text-2xl">Tow Mater</h1>
+                        <h1 class="text-center  font-bold text-lg">Tow truck</h1>
+                        <p class="text-center w-full"><span class="font-bold">BIO: </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum hic quibusdam odio maiores porro eos? Voluptas beatae molestiae laudantium, quo numquam architecto corrupti deleniti quae laborum in! Eaque, velit eveniet.</p>
 
-                </div>
-            </div>
-            <div class="md:col-span-1 col-span-3 flex justify-center items-center flex-col">
-                <img src="https://i.ytimg.com/vi/R1jpnPZ8lrk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCnzqYFR3-NdNNjWpV7mDTEVmHcSw" alt="" class="rounded-full h-5/10 border-3 border-solid">
-                <div class="flex justify-center items-center flex-col">
-                    <h1 class="text-center font-bold text-2xl">Doc Hudson</h1>
-                    <h1 class="text-center  font-bold text-lg">Doctor</h1>
-                    <p class="text-center"><span class="font-bold ">BIO: </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum hic quibusdam odio maiores porro eos? Voluptas beatae molestiae laudantium, quo numquam architecto corrupti deleniti quae laborum in! Eaque, velit eveniet.</p>
-                    <div class="flex justify-evenly items-center w-full mt-5">
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyLN()"><i class="fab fa-linkedin fa-3x "></i></button>
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyFB()"><i class="fab fa-facebook-square fa-3x"></i></button>
-                        <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover" onclick="copyIG()"><i class="fab fa-instagram-square fa-3x"></i></button>
                     </div>
-
+                    
+                </div>
+                <div class="flex justify-evenly items-center  md:w-5/10 [760]:w-full mt-5">
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyLN()"><i class="fab fa-linkedin text-4xl text-1xl lg:text-2xl xl:text-4xl "></i></button>
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyFB()"><i class="fab fa-facebook-square text-4xl text-1xl lg:text-2xl xl:text-4xl"></i></button>
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyIG()"><i class="fab fa-instagram-square text-4xl text-1xl lg:text-2xl xl:text-4xl"></i></button>
                 </div>
             </div>
-        </div>
+
+            <div class="md:col-span-1 col-span-3 flex justify-center items-center flex-col p-5 border-3 border-double rounded-lg">
+                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/04/lightning_mcqueen_on_his_truck_in_cars.jpg" alt="racecar" class="rounded-full w-full border-3 border-solid">
+                <div class="flex justify-center items-center flex-col w-9/10">
+                    <div class="w-9/10 flex justify-center items-center flex-col">
+                        <h1 class="text-center font-bold text-2xl">Lightning McQueen</h1>
+                        <h1 class="text-center  font-bold text-lg">Tow truck</h1>
+                        <p class="text-center w-full"><span class="font-bold">BIO: </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum hic quibusdam odio maiores porro eos? Voluptas beatae molestiae laudantium, quo numquam architecto corrupti deleniti quae laborum in! Eaque, velit eveniet.</p>
+
+                    </div>
+                    
+                </div>
+                <div class="flex justify-evenly items-center  sm:w-5/10 [760]:w-full mt-5">
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyLN()"><i class="fab fa-linkedin text-4xl text-1xl lg:text-2xl xl:text-4xl "></i></button>
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyFB()"><i class="fab fa-facebook-square text-4xl text-1xl lg:text-2xl xl:text-4xl"></i></button>
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyIG()"><i class="fab fa-instagram-square text-4xl text-1xl lg:text-2xl xl:text-4xl"></i></button>
+                </div>
+            </div>
+
+            <div class="sm:col-span-1 col-span-3 flex justify-center items-center flex-col p-5 border-3 border-double rounded-lg">
+                <img src="https://i.ytimg.com/vi/R1jpnPZ8lrk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCnzqYFR3-NdNNjWpV7mDTEVmHcSw" alt="doc" class="rounded-full w-full border-3 border-solid">
+                <div class="flex justify-center items-center flex-col w-9/10">
+                    <div class="w-9/10 flex justify-center items-center flex-col">
+                        <h1 class="text-center font-bold text-2xl">Doc Hudson</h1>
+                        <h1 class="text-center  font-bold text-lg">Doctor</h1>
+                        <p class="text-center w-full"><span class="font-bold">BIO: </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum hic quibusdam odio maiores porro eos? Voluptas beatae molestiae laudantium, quo numquam architecto corrupti deleniti quae laborum in! Eaque, velit eveniet.</p>
+
+                    </div>
+                    
+                </div>
+                <div class="flex justify-evenly items-center  sm:w-5/10 [760]:w-full mt-5">
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyLN()"><i class="fab fa-linkedin text-4xl text-1xl lg:text-2xl xl:text-4xl "></i></button>
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyFB()"><i class="fab fa-facebook-square text-4xl text-1xl lg:text-2xl xl:text-4xl"></i></button>
+                    <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyIG()"><i class="fab fa-instagram-square text-4xl text-1xl lg:text-2xl xl:text-4xl"></i></button>
+                </div>
+            </div>
+
+                   
 
     </div>
     <footer>
     </footer>
     <script>
-        let ig = document.getElementsByClassName("ig");
-        ig.addEventListener("click", copyIG);
         function copyLN(){
             navigator.clipboard.writeText("https://www.linkedin.com/");
             alert("Link Copied!");
