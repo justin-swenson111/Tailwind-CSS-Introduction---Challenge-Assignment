@@ -26,10 +26,8 @@
     
   </style>
 </head>
-<body class="bg-gray-200 h-screen dark:bg-gray-800 dark:text-white">
+<body class="bg-gray-200 h-screen dark:bg-gray-800 dark:text-white display flex justify-center items-center">
     <div class="flex justify-evenly items-center items-center w-7/10 m-auto ">
-        
-
         <div class="grid grid-cols-3 w-full gap-[10vw] ">
             <div class="md:col-span-1 col-span-3 flex justify-center items-center flex-col p-5 border-3 border-double rounded-lg">
                 <img src="https://lozshop.b-cdn.net/wp-content/uploads/2018/07/LOZ-1619-Tow-Mater-Car-1024x663.jpg" alt="tomater" class="rounded-full w-full border-3 border-solid">
@@ -67,17 +65,17 @@
                 </div>
             </div>
 
-            <div class="sm:col-span-1 col-span-3 flex justify-center items-center flex-col p-5 border-3 border-double rounded-lg">
+            <div class="md:col-span-1 col-span-3 flex justify-center items-center flex-col p-5 border-3 border-double rounded-lg">
                 <img src="https://i.ytimg.com/vi/R1jpnPZ8lrk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCnzqYFR3-NdNNjWpV7mDTEVmHcSw" alt="doc" class="rounded-full w-full border-3 border-solid">
                 <div class="flex justify-center items-center flex-col w-9/10">
                     <div class="w-9/10 flex justify-center items-center flex-col">
                         <h1 class="text-center font-bold text-2xl">Doc Hudson</h1>
                         <h1 class="text-center  font-bold text-lg">Doctor</h1>
                         <p class="text-center w-full"><span class="font-bold">BIO: </span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum hic quibusdam odio maiores porro eos? Voluptas beatae molestiae laudantium, quo numquam architecto corrupti deleniti quae laborum in! Eaque, velit eveniet.</p>
-
+    
                     </div>
                     
-                </div>
+                </div>  
                 <div class="flex justify-evenly items-center  sm:w-5/10 [760]:w-full mt-5">
                     <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyLN()"><i class="fab fa-linkedin text-4xl text-1xl lg:text-2xl xl:text-4xl "></i></button>
                     <button class="m-3 border-3 border-double rounded-lg p-1 hover:animate-hover icon" onclick="copyFB()"><i class="fab fa-facebook-square text-4xl text-1xl lg:text-2xl xl:text-4xl"></i></button>
@@ -85,11 +83,9 @@
                 </div>
             </div>
 
-                   
+  
 
     </div>
-    <footer>
-    </footer>
     <script>
         function copyLN(){
             navigator.clipboard.writeText("https://www.linkedin.com/");
